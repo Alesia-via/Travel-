@@ -11,21 +11,22 @@
 <link rel="stylesheet" href="./sass/style.css"
 </head>
 <body>
+    <div class="wrapper header-preview-container">
     <header class="header">
-        <div class="wrapper">
-            <a href="a" class="logo"><span></span>Travel Portal </a>
+        <div class="wrapper header_wrapper">
+            <a href="a" class="logo"><span><img src="./img/logo.svg" alt="logo"></span></a>
             <nav class="header_navigation">
                 <ul class="navigation">
-                    <li>How It Works</li>
-                    <li>Plan Your Trip</li>
-                    <li>Destinations</li>
-                    <li>Travel Stories</li>
+                    <li class="navigation_link">How It Works</li>
+                    <li class="navigation_link">Plan Your Trip</li>
+                    <li class="navigation_link"> Destinations</li>
+                    <li class="navigation_link">Travel Stories</li>
                 </ul>
-                <div class="header_button">
-                    <button class="button"> Login</button>
-                </div>
-                
+             <!-- <img src="./img/garrett-parker-DlkF4-dbCOU-unsplash.jpg" alt=""> -->
             </nav>
+            <div class="header_button">
+                <button class="button"> Login</button>
+            </div>
         </div>
     </header>
     <main>
@@ -33,7 +34,7 @@
         <div class="wrapper">
             <div class="preview_content">
                 <h1>Explore the beauty of the World</h1>
-                <p>Receive personalized recommendations for countries, hotels, activities and more</p>
+                <p class="preview_text">Receive personalized recommendations for countries, hotels, activities and more</p>
                 <div class="preview_search">
                     <form>
                         <input type="text" name="search" placeholder="What would you like to do?">
@@ -45,6 +46,7 @@
 
         </div>
     </section>
+</div>
     <section class="steps">
         <div class="wrapper">
             <h2>3 STEPS TO THE PERFECT TRIP</h2>
@@ -53,24 +55,24 @@
                     <div class="step_icon">
                         <span class="icon_square"></span>
                     </div>
-                    <h4>Tell us what you want to do</h4>
+                    <h5>Tell us what you want to do</h5>
                 </div>
                 <div class="step">
                     <div class="step_icon">
                         <span class="icon_square"></span>
                     </div>
-                    <h4>Share us preferable dates </h4>
+                    <h5>Share us preferable dates </h5>
                 </div>
                 <div class="step">
                     <div class="step_icon">
                         <span class="icon_square"></span>
                     </div>
-                    <h4>We will give you recommendations</h4>
+                    <h5>We will give you recommendations</h5>
                 </div>
             </div>
         </div>
     </section>
-    <section class="destinations">
+    <section class="destinations" id="destinations">
         <div class="wrapper">
             <h2>POPULAR DESTINATIONS</h2>
             <div class="slider">
@@ -94,12 +96,12 @@
     </section>
     <section class="stories">
         <div class="wrapper">
-            <div class="inner"> 
+            
                 <h2>TRAVEL STORIES</h2>
                 <div class="container">
                     <div class="container_item">
                         <div class="photo">
-                            <img src="./img/Rectangle 15.jpg"  alt="Story"
+                            <img src="./img/Rectangle 29.png"  alt="Story"
                         </div>
                         <div class="story">
                             <h3 class="story_title">10 Photos of Attractive Thailand</h3>
@@ -109,7 +111,7 @@
                     </div>
                     <div class="container_item">
                         <div class="photo">
-                            <img src="./img/Rectangle 16.jpg" alt="Story">
+                            <img src="./img/Rectangle 30.png" alt="Story">
                         </div>
                         <div class="story">
                             <h3 class="story_title">Canyonlands National Park, Utah</h3>
@@ -119,7 +121,7 @@
                     </div>
                     <div class="container_item">
                         <div class="photo">
-                            <img src="./img/Rectangle 17.jpg" alt="Story">
+                            <img src="./img/Rectangle 31.png" alt="Story">
                         </div>
                         <div class="story">
                             <h3 class="story_title">I left my heart in the Mountains!</h3>
@@ -129,7 +131,7 @@
                     </div>
                     <div class="container_item">
                         <div class="photo">
-                            <img src="./img/Rectangle 18.jpg" alt="Story">
+                            <img src="./img/Rectangle 32.png" alt="Story">
                         </div>
                         <div class="story">
                             <h3 class="story_title">The Longest journey in my life!</h3>
@@ -141,7 +143,7 @@
                 <div class="inner_button">
                     <button class="long-button">See More</button>
                 </div>
-            </div>
+        
             
         </div>
     </section>

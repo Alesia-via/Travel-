@@ -1,0 +1,21 @@
+.header-preview-container{
+   
+    background: url(../img/garrett-parker-DlkF4-dbCOU-unsplash.jpg)center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.preview{
+    padding: 30px 100px;
+    //  height: 100vh;
+}
+.preview_content{
+   width: 73%;
+}
+.preview_text{
+    color: $color-heading;
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.4rem;
+}

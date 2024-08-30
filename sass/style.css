@@ -1,10 +1,135 @@
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 body {
   font-size: 1.6rem;
-  font-family: "Aleo", "Red Hat Text", sans-serif;
+  font-family: "Aleo", Verdana, sans-serif;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 96px;
+  color: #FFF;
+}
+
+h2 {
+  font-family: "Red Hat Text", Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 53px;
+  color: #F2785C;
+}
+
+h3 {
+  font-family: "Aleo", Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+  color: #0D606F;
+}
+
+h4 {
+  font-family: "Red Hat Text", Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  color: #FFF;
+}
+
+h5 {
+  font-family: "Aleo", Verdana, sans-serif;
+  font-style: normal;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0D606F;
+}
+
+.button {
+  font-family: "Red Hat Text", Verdana, sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  padding: 10px 25px;
+  opacity: 0.5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  color: #FFF;
+  background-color: #0D606F;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  opacity: 100;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.header {
+  background-color: #F2785C;
+  opacity: 70%;
+  box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+  padding: 20px 0 20px 0;
+}
+
+.header_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  font-family: "Red Hat Text", Verdana, sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  color: #FFF;
+}
+
+.navigation_link {
+  list-style: none;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.header-preview-container {
+  background: url(../img/garrett-parker-DlkF4-dbCOU-unsplash.jpg) center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.preview {
+  padding: 30px 100px;
+}
+
+.preview_content {
+  width: 73%;
+}
+
+.preview_text {
+  color: #FFF;
+  font-family: "Aleo";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+
+.container {
+  background: url(../img/Rectangle\ 33.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=style.css.map */
