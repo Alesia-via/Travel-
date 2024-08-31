@@ -1,0 +1,11 @@
+%transition{
+    transition: all .3s ease-out;
+}
+%font-add{
+    font-family: 'Red Hat Text', Verdana, sans-serif;
+};
+%column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }

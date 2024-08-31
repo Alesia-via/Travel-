@@ -1,5 +1,43 @@
-.container {
-    background: url(../img/Rectangle\ 33.png);
+.stories{
+    position: relative;
+    background-image: url(../img/Rectangle\ 33.png);
     background-size: cover;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat; 
 }
+.stories-wrapper{
+    background-color:rgba(255,255,255, 0.5);
+    padding: 50px 100px;
+
+}
+
+.container-and-button{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    
+}
+.container_item{
+    @extend %column;
+    gap: 20px 20px;
+    margin-bottom: 30px;
+}
+.stories_img{
+filter: drop-shadow(0px 4px 4px #0D606F);
+border-radius: 16px;
+}
+.story_description,
+.stoty_link{
+font-style: normal;
+font-weight: 400;
+font-size: 2.0rem;
+line-height: 2.4rem;
+
+color: $color-text;}
+
+//     color: $color-text;
+//     font-style: normal;
+//     font-weight: 400;
+//     font-size: 2.0rem;
+//     line-height: 2.4rem;
+// }

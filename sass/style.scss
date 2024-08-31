@@ -1,4 +1,7 @@
+@import "../node_modules/normalize-scss/sass/normalize";
 @import "abstracts/constants";
+@import "abstracts/placeholder";
+@import "abstracts/mixins";
 @import "base/base";
 @import "base/buttons";
 
@@ -7,3 +10,5 @@
 // Components
 @import "components/preview";
 @import "components/stories";
+@import "components/steps";
+@import "components/destination";

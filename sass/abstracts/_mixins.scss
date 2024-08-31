@@ -1,0 +1,8 @@
+@mixin column($width){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    >*{
+        flex-basis:$width ;
+    }
+}
