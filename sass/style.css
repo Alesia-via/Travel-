@@ -6,7 +6,7 @@
   font-family: "Red Hat Text", Verdana, sans-serif;
 }
 
-.slider_container, .container_item {
+.social-icons, .footer_wraper, .slider_container, .container_item {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -287,6 +287,21 @@ input::placeholder {
   background-color: rgba(255, 255, 255, 0);
   padding: 10px;
   border-radius: 5px;
+}
+
+.footer {
+  padding: 20px 100px;
+  background-image: url(../img/Rectangle\ 33.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.social-icon {
+  margin-right: 15px;
+}
+
+.footer-item_text {
+  color: #FFF;
 }
 
 /*# sourceMappingURL=style.css.map */
