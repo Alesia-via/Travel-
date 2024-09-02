@@ -6,6 +6,8 @@ body{
     font-size: 1.6rem;
     font-family: 'Aleo', Verdana, sans-serif;
 }
+
+
 h1{
    
     font-style: normal;
@@ -13,7 +15,9 @@ h1{
     font-size: 80px;
     line-height: 96px;
    color: $color-heading;
-}
+   @include media-mobile-m{
+display: none;
+}}
 h2{
     @extend %font-add;
     font-style: normal;
@@ -22,6 +26,10 @@ h2{
     line-height: 53px;
     color: $color-brand;
     text-align: center;
+    @include media-mobile-m{
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+        }
 }
 h3{
     font-family: 'Aleo', Verdana, sans-serif;
@@ -30,6 +38,15 @@ h3{
     font-size: 35px;
     line-height: 42px;
     color: $color-text;
+    @include media-tablet{
+        font-size: 2.0rem;
+        line-height: 2.4rem;
+        }
+        @include media-mobile-m{
+            font-size: 1.1rem;
+            line-height: 1.3rem;
+            font-weight: 700;
+            }
 }
 h4{
     font-family: 'Red Hat Text', Verdana, sans-serif;
@@ -47,4 +64,8 @@ h5{
     font-size: 20px;
     line-height: 24px;
     color: $color-text;
+    @include media-mobile-m{
+        font-size: 1.0rem;
+        line-height: 1.2rem;
+        }
 }

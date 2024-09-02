@@ -1,5 +1,8 @@
 .steps{
     padding: 30px 100px 50px 100px;
+    @include media-mobile-m{
+        padding: 20px 5px 20px 5px;
+        }
 }
 
 .layout-3-column{
@@ -7,9 +10,35 @@
     align-items: center;
     justify-content: space-between;
     margin-top:50px;
+    @include media-mobile-m{
+        margin-top:10px;
+        align-items: flex-start;
+        justify-content:space-around;
+        }
 }
+
+.step{
+    @include media-mobile-m{
+        width: 33%;
+}}
+
 .step_icon{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.icon-svg{
+    @include media-mobile-m{
+        width: 70px;
+        height: 70px;
+        }
+}
+.step{
+    @include media-mobile-m{
+        margin-right: 20px;
+}}
+.last-step-text{
+ @include media-mobile-m{
+  text-align: end;
+       }
 }

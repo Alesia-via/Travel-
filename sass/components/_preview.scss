@@ -2,13 +2,23 @@
     background: url(../img/garrett-parker-DlkF4-dbCOU-unsplash.jpg)center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+    
+    }
+
 .preview{
     padding: 30px 100px;
-    //  height: 100vh;
+    @include media-mobile-m{
+        padding: 30px 10px;
+        }
 }
 .preview_content{
    width: 73%;
+   @include media-tablet{
+    width: 100%;
+   }
+   @include media-mobile-m{
+    width: 100%;
+    }
 }
 .preview_text{
     color: $color-heading;
@@ -17,4 +27,7 @@
     font-weight: 700;
     font-size: 2rem;
     line-height: 2.4rem;
+    @include media-mobile-m{
+        display: none;
+        }
 }

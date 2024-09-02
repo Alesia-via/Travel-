@@ -17,4 +17,7 @@
 }
 .footer-item_text{
     color: $color-heading;
+    @include media-mobile-m{
+        display: none;
+    }
 }

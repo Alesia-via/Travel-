@@ -4,8 +4,18 @@
 %font-add{
     font-family: 'Red Hat Text', Verdana, sans-serif;
 };
+%font-logo{
+    font-family: "Magra", Verdana, sans-serif;
+};
 %column {
     display: flex;
     justify-content: space-between;
     align-items: center;
+   }
+   %humburger-line{
+    display: inline-block;
+    position:absolute;
+    height: 3px;
+    width: 100%;
+    background-color: $color-heading;
    }

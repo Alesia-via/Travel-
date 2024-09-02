@@ -1,8 +1,13 @@
 .header{
     background-color: $color-brand;
     opacity: 70%;
-    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
-    padding: 20px 100px 20px 0100px;
+    box-shadow: 0px 4px 4px #0d606f80;
+    padding: 20px 100px 20px 100px;
+    @include media-mobile-m{
+        background: linear-gradient(180deg, #0D606F 0%, rgba(13, 96, 111, 0) 25.1%);
+        padding: 10px 30px;
+        box-shadow: none;
+        }
 }
 .header_wrapper{
     display: flex;
@@ -18,8 +23,29 @@ color: $color-heading;
 
 
 }
+.logo_text{
+    @extend %font-logo;
+    font-style: normal;
+   font-weight: 600;
+   font-size: 32px;
+   line-height: 39px;
+  
+   cursor: pointer;
+   color: $color-heading;
+   @include media-mobile-m{
+    display: none;
+    }
+}
+.logo{
+    
+    text-decoration: none;
+
+}
 .navigation_link{
     list-style: none;
     padding: 0 10px;
     cursor: pointer;
+    @include media-mobile-m{
+        display: none;
+        }
 }

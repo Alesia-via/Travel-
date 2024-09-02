@@ -10,6 +10,10 @@
     background-color: $color-text;
     cursor: pointer;
     transition: all .3s;
+    @include media-mobile-m{
+      display: none;
+      }
+
 }
 .button:hover{
    opacity: 100;
@@ -28,12 +32,20 @@
     background-color: $color-text;
     cursor: pointer;
     @extend %transition;
-
+    @include media-mobile-m{
+      font-size: 1.1rem;
+      line-height: 1.5rem;
+       padding: 5px 10px;
+      }
 
 }
 .arrow{
   
   margin-right: 5px;
+  @include media-mobile-m{
+    width: 10px;
+    height: 10px;
+  }
 }
 
 
@@ -53,6 +65,12 @@
         height: 95px;
         width: 100%;
         padding-right: 10px;
+        @include media-mobile-m{
+          width: auto;
+          height: 48px;
+          margin-bottom: 50px;
+          margin-top: 100px;
+          }
  }
  input {
     flex-grow: 1;
@@ -63,6 +81,11 @@
     font-size: 2.4rem;
     line-height: 2.9rem;
     padding-left: 20px;
+    @include media-mobile-m{
+      font-size: 1.4rem;
+      line-height: 1.7rem;
+      padding-left: 5px;
+      }
    
   }
   input::placeholder{
